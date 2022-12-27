@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap');
+
+.title-hero{
+  font-family: 'Catamaran', sans-serif;
+}
+
+.profile_image {
+	background: linear-gradient(45deg, #00ffb6  0%, #000fa3 100%);
+	animation: morph 10s ease-in-out infinite;
+	border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+	height: 40vh;
+	width: 40vh;
+  min-width: 40vh;
+	box-shadow: 0 0 20px #000
+}
+
+@keyframes morph {
+	0% {
+		border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+		background-size: 100% 100%;
+	}
+
+	33% {
+		border-radius: 57% 43% 50% 50% / 50% 32% 68% 50%;
+		background-size: 300% 150%;
+	}
+
+	66% {
+		border-radius: 43% 57% 40% 60% / 69% 46% 54% 31%;
+		background-size: 300% 150%;
+	}
+
+  100% {
+		border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+		background-size: 100% 100%;
+	}
+}
+
+
