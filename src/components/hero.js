@@ -15,7 +15,7 @@ export default function Hero() {
         <div className="my-5 max-w-2xl">
           <h1 className="text-8xl sm:text-9xl font-bold title-hero text-black dark:text-white">
             Fermin <br /> Alvarez
-            <label className="swap swap-flip text-7xl">
+            <label className="swap swap-flip text-7xl transform transition duration-300 hover:scale-150">
               <input type="checkbox" />
 
               <div className="swap-on">🎉</div>
