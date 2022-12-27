@@ -40,4 +40,6 @@
 	}
 }
 
-
+svg path {
+    fill: white;
+}
