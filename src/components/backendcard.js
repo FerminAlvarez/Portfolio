@@ -1,11 +1,11 @@
 import { GrValidate } from "react-icons/gr";
 export default function BackendCard() {
   return (
-    <div className="bg-primary text-primary-content rounded-xl px-16 py-6 whitespace-nowrap drop-shadow-2xl">
+    <div className="bg-blue-800 text-primary-content rounded-xl px-16 py-6 whitespace-nowrap drop-shadow-2xl">
       <h1 className="text-3xl font-bold title-hero text-white my-10 justify-center">
         Backend Developer
       </h1>
-      <div className="stats flex bg-primary text-primary-content">
+      <div className="stats flex bg-blue-800 text-primary-content">
         <div className="stat flex-col justify-center align-middle space-y-4">
           <div className="title-hero text-xl flex space-x-1 fill-white">
             <GrValidate/>
