@@ -7,31 +7,31 @@ export default function FrontEndCard() {
       </h1>
       <div className="stats flex bg-primary text-primary-content">
         <div className="stat flex-col justify-center align-middle space-y-4">
-          <div className="title-hero text-xl flex space-x-1">
-            <GrValidate fill="white" />
+          <div className="title-hero text-xl flex space-x-1 fill-white">
+            <GrValidate/>
             <p>HTML</p>
           </div>
-          <div className="title-hero text-xl flex space-x-1">
-            <GrValidate fill="white" />
+          <div className="title-hero text-xl flex space-x-1 fill-white">
+            <GrValidate/>
             <p>CSS</p>
           </div>
-          <div className="title-hero text-xl flex space-x-1">
-            <GrValidate fill="white" />
+          <div className="title-hero text-xl flex space-x-1 fill-white">
+            <GrValidate/>
             <p>JavaScript</p>
           </div>
         </div>
 
         <div className="stat flex-col justify-center align-middle space-y-4">
-          <div className="title-hero text-xl flex space-x-1">
-            <GrValidate fill="white" />
+          <div className="title-hero text-xl flex space-x-1 fill-white">
+            <GrValidate/>
             <p>Bootstrap</p>
           </div>
-          <div className="title-hero text-xl flex space-x-1">
-            <GrValidate fill="white" />
+          <div className="title-hero text-xl flex space-x-1 fill-white">
+            <GrValidate/>
             <p>Tailwind CSS</p>
           </div>
-          <div className="title-hero text-xl flex space-x-1">
-            <GrValidate fill="white" />
+          <div className="title-hero text-xl flex space-x-1 fill-white">
+            <GrValidate/>
             <p>React JS</p>
           </div>
         </div>

@@ -7,31 +7,31 @@ export default function BackendCard() {
       </h1>
       <div className="stats flex bg-primary text-primary-content">
         <div className="stat flex-col justify-center align-middle space-y-4">
-          <div className="title-hero text-xl flex space-x-1">
-            <GrValidate fill="white" />
+          <div className="title-hero text-xl flex space-x-1 fill-white">
+            <GrValidate/>
             <p>Java</p>
           </div>
-          <div className="title-hero text-xl flex space-x-1">
-            <GrValidate fill="white" />
+          <div className="title-hero text-xl flex space-x-1 fill-white">
+            <GrValidate/>
             <p>JavaScript</p>
           </div>
-          <div className="title-hero text-xl flex space-x-1">
-            <GrValidate fill="white" />
+          <div className="title-hero text-xl flex space-x-1 fill-white">
+            <GrValidate/>
             <p>PHP</p>
           </div>
         </div>
 
         <div className="stat flex-col justify-center align-middle space-y-4">
-          <div className="title-hero text-xl flex space-x-1">
-            <GrValidate fill="white" />
+          <div className="title-hero text-xl flex space-x-1 fill-white">
+            <GrValidate/>
             <p>Spring Framework</p>
           </div>
-          <div className="title-hero text-xl flex space-x-1">
-            <GrValidate fill="white" />
+          <div className="title-hero text-xl flex space-x-1 fill-white">
+            <GrValidate/>
             <p>Laravel</p>
           </div>
-          <div className="title-hero text-xl flex space-x-1">
-            <GrValidate fill="white" />
+          <div className="title-hero text-xl flex space-x-1 fill-white">
+            <GrValidate/>
             <p>Express JS</p>
           </div>
         </div>

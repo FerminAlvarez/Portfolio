@@ -40,6 +40,6 @@
 	}
 }
 
-svg path {
+.fill-white svg path {
     fill: white;
 }
