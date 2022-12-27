@@ -15,11 +15,11 @@ export default function Hero() {
         <div className="my-5 max-w-2xl">
           <h1 className="text-8xl sm:text-9xl font-bold title-hero text-black dark:text-white">
             Fermin <br /> Alvarez
-            <label class="swap swap-flip text-7xl">
+            <label className="swap swap-flip text-7xl">
               <input type="checkbox" />
 
-              <div class="swap-on">🎉</div>
-              <div class="swap-off">🖐</div>
+              <div className="swap-on">🎉</div>
+              <div className="swap-off">🖐</div>
             </label>
           </h1>
           <p className="text-2xl font-light mx-4">

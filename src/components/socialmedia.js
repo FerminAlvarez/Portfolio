@@ -1,7 +1,7 @@
 export default function SocialMedia() {
   return (
     <div>
-      <div class="flex justify-center scale-150 xl:flex-col xl:ml-5 my-10">
+      <div className="flex justify-center scale-150 xl:flex-col xl:ml-5 my-10">
         <a href="https://github.com/FerminAlvarez">
           <svg
             xmlns="http://www.w3.org/2000/svg"
