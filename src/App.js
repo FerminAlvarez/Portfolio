@@ -3,6 +3,7 @@ import DownloadCV from "./components/downloadcv";
 import Hero from "./components/hero";
 import Skills from "./components/skills";
 import Qualification from "./components/qualification";
+import Projects from "./components/projects";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <DownloadCV />
       <Skills/>
       <Qualification/>
+      <Projects />
     </div>
   );
 }
