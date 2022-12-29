@@ -1,7 +1,7 @@
 import { BsStarFill } from "react-icons/bs";
 export default function CardProject(props) {
   return (
-    <div className="px-10 py-20 text-center align-middle border rounded-2xl rounded lg:px-5 lg:py-10 xl:py-20 bg-white dark:bg-gray-700 transform transition duration-300 hover:scale-110 cursor-pointer hover:-rotate-3">
+    <div className="px-10 py-20 text-center align-middle border rounded-2xl rounded lg:px-5 lg:py-10 xl:py-20 bg-white dark:bg-gray-700 transform transition duration-300 hover:scale-110  hover:-rotate-3">
       {props.data.favorite && (
         <div className="absolute top-2 right-2 dark:text-white">
           <BsStarFill size={25} />
@@ -22,6 +22,8 @@ export default function CardProject(props) {
       {props.data.link !== undefined && (
         <a
           href={props.data.link}
+          target="_blank"
+          rel="noreferrer"
           aria-label=""
           className="inline-flex items-center font-semibold duration-200 dark:text-slate-300"
         >
