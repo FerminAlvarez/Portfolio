@@ -1,41 +1,53 @@
-import { GrValidate } from "react-icons/gr";
+import { DiJava } from "react-icons/di";
+import { IoLogoJavascript } from "react-icons/io";
+import { SiPhp } from "react-icons/si";
+import { SiSpring } from "react-icons/si";
+import { FaLaravel } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
 export default function BackendCard() {
   return (
-    <div className="bg-blue-800 text-primary-content rounded-xl px-16 py-6 whitespace-nowrap drop-shadow-2xl">
+    <div className="bg-blue-800 text-primary-content rounded-xl px-16 py-6 whitespace-nowrap my-10 drop-shadow-2xl">
       <h1 className="text-3xl font-bold title-hero text-white my-10 justify-center">
         Backend Developer
       </h1>
-      <div className="stats flex bg-blue-800 text-primary-content">
-        <div className="stat flex-col justify-center align-middle space-y-4">
-          <div className="title-hero text-xl flex space-x-1 fill-white">
-            <GrValidate/>
+      <ul className="menu p-2">
+        <li>
+          <div className="title-hero text-xl flex fill-white">
+            <DiJava size={30} />
             <p>Java</p>
           </div>
-          <div className="title-hero text-xl flex space-x-1 fill-white">
-            <GrValidate/>
+        </li>
+        <li>
+          <div className="title-hero text-xl flex fill-white">
+            <IoLogoJavascript size={30} />
             <p>JavaScript</p>
           </div>
+        </li>
+        <li>
           <div className="title-hero text-xl flex space-x-1 fill-white">
-            <GrValidate/>
+            <SiPhp size={30} />
             <p>PHP</p>
           </div>
-        </div>
-
-        <div className="stat flex-col justify-center align-middle space-y-4">
+        </li>
+        <li>
           <div className="title-hero text-xl flex space-x-1 fill-white">
-            <GrValidate/>
+            <SiSpring size={30} />
             <p>Spring Framework</p>
           </div>
+        </li>
+        <li>
           <div className="title-hero text-xl flex space-x-1 fill-white">
-            <GrValidate/>
+            <FaLaravel size={30} />
             <p>Laravel</p>
           </div>
+        </li>
+        <li>
           <div className="title-hero text-xl flex space-x-1 fill-white">
-            <GrValidate/>
+            <SiExpress size={30} />
             <p>Express JS</p>
           </div>
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
   );
 }

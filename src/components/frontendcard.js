@@ -1,41 +1,53 @@
-import { GrValidate } from "react-icons/gr";
+import { AiFillHtml5 } from "react-icons/ai";
+import { DiCss3 } from "react-icons/di";
+import { IoLogoJavascript } from "react-icons/io";
+import { BsFillBootstrapFill } from "react-icons/bs";
+import { SiTailwindcss } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
 export default function FrontEndCard() {
   return (
     <div className="bg-blue-800 text-primary-content rounded-xl px-16 py-6 whitespace-nowrap my-10 drop-shadow-2xl">
       <h1 className="text-3xl font-bold title-hero text-white my-10 justify-center">
         Frontend Developer
       </h1>
-      <div className="stats flex bg-blue-800 text-primary-content">
-        <div className="stat flex-col justify-center align-middle space-y-4">
-          <div className="title-hero text-xl flex space-x-1 fill-white">
-            <GrValidate/>
+      <ul className="menu p-2">
+        <li>
+          <div className="title-hero text-xl flex fill-white">
+            <AiFillHtml5 size={30} />
             <p>HTML</p>
           </div>
-          <div className="title-hero text-xl flex space-x-1 fill-white">
-            <GrValidate/>
+        </li>
+        <li>
+          <div className="title-hero text-xl flex fill-white">
+            <DiCss3 size={30} />
             <p>CSS</p>
           </div>
+        </li>
+        <li>
           <div className="title-hero text-xl flex space-x-1 fill-white">
-            <GrValidate/>
+            <IoLogoJavascript size={30}/>
             <p>JavaScript</p>
           </div>
-        </div>
-
-        <div className="stat flex-col justify-center align-middle space-y-4">
+        </li>
+        <li>
           <div className="title-hero text-xl flex space-x-1 fill-white">
-            <GrValidate/>
+            <BsFillBootstrapFill size={30}/>
             <p>Bootstrap</p>
           </div>
+        </li>
+        <li>
           <div className="title-hero text-xl flex space-x-1 fill-white">
-            <GrValidate/>
+            <SiTailwindcss size={30}/>
             <p>Tailwind CSS</p>
           </div>
+        </li>
+        <li>
           <div className="title-hero text-xl flex space-x-1 fill-white">
-            <GrValidate/>
+            <FaReact size={30}/>
             <p>React JS</p>
           </div>
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
   );
 }
