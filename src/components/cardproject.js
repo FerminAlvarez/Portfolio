@@ -1,4 +1,5 @@
 import { BsStarFill } from "react-icons/bs";
+import Badge from "./badge";
 export default function CardProject(props) {
   return (
     <div className="px-10 py-20 text-center align-middle border rounded-2xl rounded lg:px-5 lg:py-10 xl:py-20 bg-white dark:bg-gray-700 transform transition duration-300 hover:scale-110  hover:-rotate-3">
@@ -43,9 +44,7 @@ export default function CardProject(props) {
       <div className="mt-5">
         {props.data.tags.map((tag, index) => {
           return (
-            <div key={index} className="badge bg-teal-500 dark:text-white font-bold mx-2">
-              {tag}
-            </div>
+            <Badge key={index} tag={tag}/>
           );
         })}
       </div>

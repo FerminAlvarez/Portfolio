@@ -4,7 +4,7 @@ export const projectsData = [
     description:
       "Este proyecto pretende mostrar todos los proyectos que he realizado",
     date: "30 DICIEMBRE 2022",
-    tags: ["JavaScript", "React Js", "Tailwind CSS"],
+    tags: ["JavaScript", "React JS", "Tailwind CSS"],
     link: "https://github.com/FerminAlvarez/FerminAlvarez",
     favorite: true,
   },
@@ -13,7 +13,7 @@ export const projectsData = [
     description:
       "Este proyecto pretende mostrar con un mejor diseño (como netflix) las listas de reproducción que tenemos en nuestro canal de youtube.",
     date: "21 DICIEMBRE 2022",
-    tags: ["JavaScript", "React Js", "Tailwind CSS", "OAuth2.0"],
+    tags: ["JavaScript", "React JS", "Tailwind CSS", "OAuth2.0"],
     link: "https://github.com/FerminAlvarez/Youtube-Playlists-with-Netflix-Design",
     favorite: true,
   },
@@ -22,7 +22,7 @@ export const projectsData = [
     description:
       "Repositorio que cuenta con API's implementadas bajo distintos frameworks y lenguajes con el fin de indagar en nuevas tecnologías.",
     date: "16 DICIEMBRE 2022",
-    tags: ["Express Js", "Sequelize", "PostgreSQL", "Swagger"],
+    tags: ["Express JS", "Sequelize", "PostgreSQL", "Swagger"],
     link: "https://github.com/FerminAlvarez/PreciosLibros-APIS",
     favorite: true,
   },
@@ -67,8 +67,8 @@ export const projectsData = [
     description:
       "Aplicación web para la administración de libros, librerías, autores y precios desarrollado para Ingeniería de Aplicaciones Web (2022) - Universidad Nacional del Sur.",
     date: "28 JUNIO 2022",
-    tags: ["JavaScript", "React Js", "Tailwind CSS"],
-    link: "https://github.com/FerminAlvarez/FerminAlvarez-js",
+    tags: ["JavaScript", "React JS", "Tailwind CSS"],
+    link: "https://github.com/FerminAlvarez/FerminAlvarez-JS",
     favorite: true,
   },
   {
@@ -76,7 +76,7 @@ export const projectsData = [
     description:
       "API para la administración de libros, librerías, autores y precios desarrollado para Ingeniería de Aplicaciones Web (2022) - Universidad Nacional del Sur.",
     date: "8 JUNIO 2022",
-    tags: ["Express Js", "Swagger", "PostgreSQL"],
+    tags: ["Express JS", "Swagger", "PostgreSQL"],
     link: "https://github.com/FerminAlvarez/FerminAlvarez-API",
     favorite: true,
   },
@@ -103,7 +103,7 @@ export const projectsData = [
     description:
       "Implementación de nonograma con posibilidad de revelar celdas y mostrar la solución realizado para Lógica para Ciencias de La Computación (2021) - Universidad Nacional del Sur.",
     date: "20 JUNIO 2021",
-    tags: ["JavaScript", "React Js", "Prolog"],
+    tags: ["JavaScript", "React JS", "Prolog"],
     link: "https://github.com/FerminAlvarez/Nonograma",
   },
   {
