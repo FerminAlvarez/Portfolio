@@ -5,7 +5,7 @@ export const projectsData = [
       "Este proyecto pretende mostrar todos los proyectos que he realizado",
     date: "30 DICIEMBRE 2022",
     tags: ["JavaScript", "React JS", "Tailwind CSS"],
-    link: "https://github.com/FerminAlvarez/FerminAlvarez",
+    link: "https://github.com/FerminAlvarez/Portfolio",
     favorite: true,
   },
   {
