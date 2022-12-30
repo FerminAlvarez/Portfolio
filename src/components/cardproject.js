@@ -26,7 +26,7 @@ export default function CardProject(props) {
           target="_blank"
           rel="noreferrer"
           aria-label=""
-          className="inline-flex items-center font-semibold duration-200 dark:text-slate-300"
+          className="inline-flex items-center font-semibold duration-200 dark:text-white my-6"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@ export default function CardProject(props) {
           Repositorio
         </a>
       )}
-      <div className="mt-5">
+      <div className="mt-5 flex flex-row flex-wrap justify-center space-x-2">
         {props.data.tags.map((tag, index) => {
           return (
             <Badge key={index} tag={tag}/>

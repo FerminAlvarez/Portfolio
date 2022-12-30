@@ -46,6 +46,11 @@
     fill: white;
 }
 
+.fill-gray svg path {
+    fill: #a6adba;
+}
+
+
 a.anchor {
     display: block;
     position: relative;

@@ -4,7 +4,7 @@ import { BsWhatsapp } from "react-icons/bs";
 export default function Contact() {
   return (
     <div className="flex flex-col lg:flex-row w-full max-w-screen-xl mt-24 px-8 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-gray-100 dark:bg-gray-700 text-gray-900 rounded-lg shadow-lg h-max my-20">
-      <a className="anchor" id="contacto"></a>
+      <a className="anchor" id="contacto"> </a>
       <ContactForm />
       <div className="divider divider-horizontal"></div>
       <div className="grid content-around justify-center lg:ml-24">
