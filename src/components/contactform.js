@@ -1,4 +1,23 @@
+import { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 export default function ContactForm() {
+  const form = useRef();
+  const [message, setMessage] = useState("");
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_jsto2rg",
+        "template_hddpjr8",
+        form.current,
+        "sMiXc_NSgDt7cjlzF"
+      )
+      .then((mensaje) => {
+        console.log(mensaje);
+        setMessage("¡Correo enviado correctamente!");
+      });
+  };
   return (
     <div className="flex flex-col justify-between lg:mr-24">
       <div>
@@ -7,7 +26,7 @@ export default function ContactForm() {
         </h2>
       </div>
       <div className="mt-2">
-        <form action="mailto:ferminalvarez.dev@gmail.com" method="post" encType="text/plain">
+        <form ref={form} onSubmit={sendEmail}>
           <div>
             <span className="uppercase text-sm text-gray-600 font-bold dark:text-base-content">
               Nombre y Apellido
@@ -15,8 +34,10 @@ export default function ContactForm() {
             <input
               className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
               type="text"
-              name="name"
+              name="from_name"
               placeholder="Ingrese su nombre y apellido"
+              minlength="2"
+              required
             />
           </div>
           <div className="mt-2">
@@ -25,8 +46,8 @@ export default function ContactForm() {
             </span>
             <input
               className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-              type="text"
-              name="mail"
+              type="email"
+              name="from_email"
               placeholder="Ingrese su email"
             />
           </div>
@@ -37,13 +58,22 @@ export default function ContactForm() {
             <textarea
               className="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
               placeholder="Ingrese su propuesta :)"
-              name="comment"
+              name="message"
+              minlength="5"
+              required
             ></textarea>
           </div>
           <div className="mt-2">
-            <button className="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
-              Enviar correo
-            </button>
+            <input
+              className="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline btn btn-primary"
+              type="submit"
+              value="Enviar Correo"
+            />
+          </div>
+          <div className="mt-2 ">
+            <p className="text-sm text-gray-600 font-bold dark:text-base-content">
+              {message}
+            </p>
           </div>
         </form>
       </div>
