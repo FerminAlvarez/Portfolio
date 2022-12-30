@@ -7,7 +7,7 @@ export default function Career() {
         Experiencia Laboral
       </h1>
       <div className="flex mx-auto my-10">
-        <div className="flex flex-col items-center mr-4">
+        <div className="hidden md:flex md:flex-col items-center md:mr-4">
           <div>
             <div className="flex items-center justify-center w-10 h-10 border rounded-full">
               <IoMdCheckmark size={25} />

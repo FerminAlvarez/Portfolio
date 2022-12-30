@@ -18,8 +18,8 @@ export default function ExtrasCard() {
       <h1 className="text-3xl font-bold title-hero text-white my-10 justify-center">
         Extras
       </h1>
-      <div className="columns-2">
-        <ul className="menu p-2">
+      <div className="columns-1 lg:columns-2">
+        <ul className="menu md:p-2">
           <li>
             <div className="title-hero text-xl flex fill-white">
               <DiMysql size={30} />
@@ -51,7 +51,7 @@ export default function ExtrasCard() {
             </div>
           </li>
           <li>
-            <div className="title-hero text-xl flex space-x-1 ">
+            <div className="title-hero text-sm md:text-xl flex space-x-1 ">
               <SiSequelize size={30} />
               <p>Sequelize - Eloquent - Hibernate</p>
             </div>
@@ -63,7 +63,7 @@ export default function ExtrasCard() {
             </div>
           </li>
           <li>
-            <div className="title-hero text-xl flex space-x-1 fill-white">
+            <div className="title-hero text-sm md:text-xl flex space-x-1 fill-white">
               <BsCode size={30} />
               <p>Clean Code - Clean Architecture</p>
             </div>
@@ -113,7 +113,7 @@ export default function ExtrasCard() {
             </div>
           </li>
           <li>
-            <div className="title-hero text-xl flex space-x-1 fill-white">
+            <div className="title-hero text-sm md:text-xl flex space-x-1 fill-white">
               <IoMdInfinite size={30} />
               <p>Entrega e Integración Continua</p>
             </div>

@@ -1,6 +1,6 @@
 export default function ContactForm() {
   return (
-    <div className="flex flex-col justify-between mr-24">
+    <div className="flex flex-col justify-between lg:mr-24">
       <div>
         <h2 className="text-4xl lg:text-3xl font-bold leading-tight dark:text-white">
           Me alegra que te hayas interesado por mí. ¡Puedes escribirme!
