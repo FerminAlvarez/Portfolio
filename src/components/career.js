@@ -2,7 +2,7 @@ import { IoMdCheckmark } from "react-icons/io";
 
 export default function Career() {
   return (
-    <div className="lg:py-6 lg:pr-16 flex flex-col">
+    <div className="flex flex-col">
       <h1 className="text-4xl sm:text-6xl font-bold title-hero text-base-content dark:text-white mt-10">
         Experiencia Laboral
       </h1>
