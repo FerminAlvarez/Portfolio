@@ -7,7 +7,7 @@ export default function ContactForm() {
         </h2>
       </div>
       <div className="mt-2">
-        <form action="mailto:ferminalvarez.dev@gmail.com" method="post" enctype="text/plain">
+        <form action="mailto:ferminalvarez.dev@gmail.com" method="post" encType="text/plain">
           <div>
             <span className="uppercase text-sm text-gray-600 font-bold dark:text-base-content">
               Nombre y Apellido

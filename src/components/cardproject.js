@@ -41,9 +41,9 @@ export default function CardProject(props) {
         </a>
       )}
       <div className="mt-5">
-        {props.data.tags.map((tag) => {
+        {props.data.tags.map((tag, index) => {
           return (
-            <div className="badge bg-teal-500 dark:text-white font-bold mx-2">
+            <div key={index} className="badge bg-teal-500 dark:text-white font-bold mx-2">
               {tag}
             </div>
           );
