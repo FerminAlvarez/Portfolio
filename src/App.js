@@ -6,10 +6,12 @@ import Qualification from "./components/qualification";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
+import Navbar from "./components/navbar";
 
 function App() {
   return (
     <div className="App">
+      <Navbar/>
       <Hero />
       <DownloadCV />
       <Skills/>

@@ -1,13 +1,14 @@
+import { HashLink as Link } from "react-router-hash-link";
 export default function Footer() {
   return (
     <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
       <div className="grid md:grid-flow-col gap-4">
-        <a className="link link-hover">Inicio</a>
-        <a className="link link-hover">CV</a>
-        <a className="link link-hover">Habilidades</a>
-        <a className="link link-hover">Educación - Experiencia</a>
-        <a className="link link-hover">Proyectos</a>
-        <a className="link link-hover">Contacto</a>
+        <Link className="link link-hover" smooth to="/#inicio"> Inicio</Link>
+        <Link className="link link-hover" smooth to="/#cv"> CV</Link>
+        <Link className="link link-hover" smooth to="/#habilidades"> Habilidades</Link>
+        <Link className="link link-hover" smooth to="/#formacion"> Educación - Experiencia</Link>
+        <Link className="link link-hover" smooth to="/#proyectos"> Proyectos</Link>
+        <Link className="link link-hover" smooth to="/#contacto"> Contacto</Link>
       </div>
       <div>
         <div className="grid grid-flow-col gap-4">
