@@ -1,7 +1,7 @@
 import { HashLink as Link } from "react-router-hash-link";
 export default function Footer() {
   return (
-    <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
+    <footer className="footer footer-center p-10 rounded bg-secondary text-white">
       <div className="grid md:grid-flow-col gap-4">
         <Link className="link link-hover" smooth to="/#inicio"> Inicio</Link>
         <Link className="link link-hover" smooth to="/#cv"> CV</Link>

@@ -1,7 +1,7 @@
 import { HashLink as Link } from "react-router-hash-link";
 export default function Navbar() {
   return (
-    <div className="navbar bg-base-100 sticky top-0 z-50 ">
+    <div className="navbar sticky top-0 z-50 bg-secondary">
       <div className="lg:hidden navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost">
@@ -22,48 +22,48 @@ export default function Navbar() {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow text-white rounded-box w-52"
           >
             <li>
-            <Link className="hover:text-black dark:hover:text-white" smooth to="/#inicio"> Inicio</Link>
+            <Link smooth to="/#inicio" className="hover:bg-primary hover:text-black hover:font-semibold"> Inicio</Link>
           </li>
           <li>
-            <Link className="hover:text-black dark:hover:text-white" smooth to="/#cv"> CV</Link>
+            <Link smooth to="/#cv" className="hover:bg-primary hover:text-black hover:font-semibold"> CV</Link>
           </li>
           <li>
-            <Link className="hover:text-black dark:hover:text-white" smooth to="/#habilidades"> Habilidades</Link>
+            <Link smooth to="/#habilidades" className="hover:bg-primary hover:text-black hover:font-semibold"> Habilidades</Link>
           </li>
           <li>
-            <Link className="hover:text-black dark:hover:text-white" smooth to="/#formacion"> Educación - Experiencia</Link>
+            <Link smooth to="/#formacion" className="hover:bg-primary hover:text-black hover:font-semibold"> Educación - Experiencia</Link>
           </li>
           <li>
-            <Link className="hover:text-black dark:hover:text-white" smooth to="/#proyectos"> Proyectos</Link>
+            <Link smooth to="/#proyectos" className="hover:bg-primary hover:text-black hover:font-semibold"> Proyectos</Link>
           </li>
           <li>
-            <Link className="hover:text-black dark:hover:text-white" smooth to="/#contacto"> Contacto</Link>
+            <Link smooth to="/#contacto" className="hover:bg-primary hover:text-black hover:font-semibold"> Contacto</Link>
           </li>
           </ul>
         </div>
       </div>
       <div className="mx-auto hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 ">
+        <ul className="menu menu-horizontal px-1 text-white">
           <li>
-            <Link className="hover:text-black dark:hover:text-white" smooth to="/#inicio"> Inicio</Link>
+            <Link smooth to="/#inicio" className="hover:bg-primary hover:text-black hover:font-semibold"> Inicio</Link>
           </li>
           <li>
-            <Link className="hover:text-black dark:hover:text-white" smooth to="/#cv"> CV</Link>
+            <Link smooth to="/#cv" className="hover:bg-primary hover:text-black hover:font-semibold"> CV</Link>
           </li>
           <li>
-            <Link className="hover:text-black dark:hover:text-white" smooth to="/#habilidades"> Habilidades</Link>
+            <Link smooth to="/#habilidades" className="hover:bg-primary hover:text-black hover:font-semibold"> Habilidades</Link>
           </li>
           <li>
-            <Link className="hover:text-black dark:hover:text-white" smooth to="/#formacion"> Educación - Experiencia</Link>
+            <Link smooth to="/#formacion" className="hover:bg-primary hover:text-black hover:font-semibold"> Educación - Experiencia</Link>
           </li>
           <li>
-            <Link className="hover:text-black dark:hover:text-white" smooth to="/#proyectos"> Proyectos</Link>
+            <Link smooth to="/#proyectos" className="hover:bg-primary hover:text-black hover:font-semibold"> Proyectos</Link>
           </li>
           <li>
-            <Link className="hover:text-black dark:hover:text-white" smooth to="/#contacto"> Contacto</Link>
+            <Link smooth to="/#contacto" className="hover:bg-primary hover:text-black hover:font-semibold"> Contacto</Link>
           </li>
         </ul>
       </div>

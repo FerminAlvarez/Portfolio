@@ -3,15 +3,15 @@ import { IoMdCheckmark } from "react-icons/io";
 export default function Education() {
   return (
     <div className="flex flex-col">
-      <h1 className="text-4xl sm:text-6xl font-bold title-hero text-base-content dark:text-white mt-10">
+      <h1 className="text-4xl sm:text-6xl font-bold title-hero text-base-content mt-10">
         Educación
       </h1>
       <div className="flex mx-auto mt-10">
         <div className="hidden md:flex md:flex-col items-center md:mr-4">
           <div>
-            <div className="flex items-center justify-center w-10 h-10 border rounded-full"></div>
+            <div className="flex items-center justify-center w-10 h-10 border rounded-full border-black"></div>
           </div>
-          <div className="w-px h-full bg-gray-300" />
+          <div className="w-px h-full bg-black" />
         </div>
         <div className="pt-1 pb-8 md:w-[28rem]">
           <p className="mb-2 text-lg font-bold">
@@ -25,7 +25,7 @@ export default function Education() {
       <div className="flex mx-auto">
         <div className="hidden md:flex md:flex-col items-center md:mr-4">
           <div>
-            <div className="flex items-center justify-center w-10 h-10 border rounded-full">
+            <div className="flex items-center justify-center w-10 h-10 border rounded-full border-black">
               <IoMdCheckmark size={25} />
             </div>
           </div>

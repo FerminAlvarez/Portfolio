@@ -2,9 +2,9 @@ import { BsStarFill } from "react-icons/bs";
 import Badge from "./badge";
 export default function CardProject(props) {
   return (
-    <div className="px-10 py-20 text-center align-middle border rounded-2xl rounded lg:px-5 lg:py-10 xl:py-20 bg-white dark:bg-gray-700 transform transition duration-300 hover:scale-110  hover:-rotate-3">
+    <div className="py-20 mx-5 text-center align-middle border rounded-2xl rounded lg:px-5 lg:py-10 xl:py-20 bg-white transform transition duration-300 hover:scale-105 min-w-[392px] min-h-[72px]">
       {props.data.favorite && (
-        <div className="absolute top-2 right-2 dark:text-white">
+        <div className="absolute top-2 right-2 text-primary">
           <BsStarFill size={25} />
         </div>
       )}
@@ -13,10 +13,10 @@ export default function CardProject(props) {
         {props.data.date}
       </p>
 
-      <h5 className="inline-block max-w-xs mx-auto mb-3 text-2xl font-bold text-black dark:text-white leading-7">
+      <h5 className="inline-block max-w-xs mx-auto mb-3 text-2xl font-bold text-black leading-7">
         {props.data.title}
       </h5>
-      <p className="max-w-xs mx-auto mb-2 dark:text-base-content">
+      <p className="max-w-xs mx-auto mb-2">
         {props.data.description}
       </p>
 
@@ -26,7 +26,7 @@ export default function CardProject(props) {
           target="_blank"
           rel="noreferrer"
           aria-label=""
-          className="inline-flex items-center font-semibold duration-200 dark:text-white my-6"
+          className="inline-flex items-center font-semibold duration-200 my-6"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

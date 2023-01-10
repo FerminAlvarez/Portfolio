@@ -3,7 +3,7 @@ import SocialMedia from "./socialmedia";
 
 export default function Hero() {
   return (
-    <div className="hero min-h-screen" id="inicio">
+    <div className="hero min-h-screen bg-background" id="inicio">
       <div className="flex items-center justify-center flex-col xl:flex-row-reverse xl:space-x-72 xl:space-x-reverse">
         <div className="xl:mr-5">
           <img
@@ -13,7 +13,7 @@ export default function Hero() {
           />
         </div>
         <div className="my-5 max-w-2xl">
-          <h1 className="text-8xl sm:text-9xl font-bold title-hero text-black dark:text-white">
+          <h1 className="text-8xl sm:text-9xl font-bold title-hero text-black">
             Fermin <br /> Alvarez
             <label className="swap swap-flip text-7xl transform transition duration-300 hover:scale-150">
               <input type="checkbox" />

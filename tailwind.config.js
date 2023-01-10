@@ -7,7 +7,13 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['"Montserrat"', 'sans-serif']
-    }
+    },
+    colors: {
+      'background': '#E6F4F1',
+      'primary': '#DB751D',
+      'secondary': '#356ab0',
+      'brown': '#DC751E'
+    },
     },
   },
   plugins: [require("daisyui")],

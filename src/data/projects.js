@@ -1,4 +1,4 @@
-export const projectsData = [
+export const personalProjects = [
   {
     title: "Mi Portfolio",
     description:
@@ -36,6 +36,41 @@ export const projectsData = [
     favorite: true,
   },
   {
+    title: "Resoluciones Algoritmos LeetCode",
+    description: "Resoluciones de ejercicios de LeetCode.",
+    date: "29 JULIO 2022",
+    tags: ["JavaScript", "Python", "Java"],
+    link: "https://github.com/FerminAlvarez/LeetCode",
+    favorite: true,
+  },
+  {
+    title: "API Scrapper - Precios de Libros",
+    description:
+      "API que permite acceder a información como precio y link de un libro partiendo del ISBN realizando un scrapping de distintas librerías Argentinas.",
+    date: "20 ABRIL 2022",
+    tags: ["Java", "Spring Framework", "Swagger"],
+    link: "https://github.com/FerminAlvarez/PreciosLibrosAPI",
+    favorite: true,
+  },
+  {
+    title: "Instagram Profile Scrapper",
+    description:
+      "El proyecto tiene como objetivo descargar todas las imágenes del perfil de Instagram de la persona usuario.",
+    date: "2 MARZO 2021",
+    tags: ["Java", "Selenium"],
+    link: "https://github.com/FerminAlvarez/InstagramProfileScrapper",
+  },
+  {
+    title: "Convertidor de archivos PDF a Excel",
+    description:
+      "Este proyecto consistió en un programa que permitía la recopilación de ciertos datos de un PDF seleccionado y luego se guardaban en una planilla Excel.",
+    date: "9 FEBRERO 2021",
+    tags: ["Java"],
+  },
+];
+
+export const universityProjects = [
+  {
     title: "Topicos Avanzados de Desarrollo Web",
     description:
       "Resumen de los temas y sus correspondientes actividades que desarrollamos durante la cursada de Tópicos Avanzados del Desarrollo Web - Universidad Nacional del Sur - 2022.",
@@ -52,14 +87,6 @@ export const projectsData = [
       "Entrega e Integración Continua",
     ],
     link: "https://github.com/FerminAlvarez/Topicos-Avanzados-de-Desarrollo-Web",
-    favorite: true,
-  },
-  {
-    title: "Resoluciones Algoritmos LeetCode",
-    description: "Resoluciones de ejercicios de LeetCode.",
-    date: "29 JULIO 2022",
-    tags: ["JavaScript", "Python", "Java"],
-    link: "https://github.com/FerminAlvarez/LeetCode",
     favorite: true,
   },
   {
@@ -90,29 +117,12 @@ export const projectsData = [
     favorite: true,
   },
   {
-    title: "API Scrapper - Precios de Libros",
-    description:
-      "API que permite acceder a información como precio y link de un libro partiendo del ISBN realizando un scrapping de distintas librerías Argentinas.",
-    date: "20 ABRIL 2022",
-    tags: ["Java", "Spring Framework", "Swagger"],
-    link: "https://github.com/FerminAlvarez/PreciosLibrosAPI",
-    favorite: true,
-  },
-  {
     title: "Nonograma",
     description:
       "Implementación de nonograma con posibilidad de revelar celdas y mostrar la solución realizado para Lógica para Ciencias de La Computación (2021) - Universidad Nacional del Sur.",
     date: "20 JUNIO 2021",
     tags: ["JavaScript", "React JS", "Prolog"],
     link: "https://github.com/FerminAlvarez/Nonograma",
-  },
-  {
-    title: "Instagram Profile Scrapper",
-    description:
-      "El proyecto tiene como objetivo descargar todas las imágenes del perfil de Instagram de la persona usuario.",
-    date: "2 MARZO 2021",
-    tags: ["Java", "Selenium"],
-    link: "https://github.com/FerminAlvarez/InstagramProfileScrapper",
   },
   {
     title: "PlagueInc",
@@ -129,12 +139,5 @@ export const projectsData = [
     date: "2 MARZO 2021",
     tags: ["Java"],
     link: "https://github.com/FerminAlvarez/Sudoku",
-  },
-  {
-    title: "Convertidor de archivos PDF a Excel",
-    description:
-      "Este proyecto consistió en un programa que permitía la recopilación de ciertos datos de un PDF seleccionado y luego se guardaban en una planilla Excel.",
-    date: "9 FEBRERO 2021",
-    tags: ["Java"],
   },
 ];

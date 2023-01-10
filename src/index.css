@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap');
-
+body{
+	background-color: #E6F4F1;
+}
 .title-hero{
   font-family: 'Catamaran', sans-serif;
 }
