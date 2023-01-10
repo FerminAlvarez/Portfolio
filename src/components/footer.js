@@ -12,7 +12,7 @@ export default function Footer() {
       </div>
       <div>
         <div className="grid grid-flow-col gap-4">
-          <a href="https://github.com/FerminAlvarez">
+          <a href="https://github.com/FerminAlvarez"  target="_blank" rel="noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 496 512"
@@ -25,7 +25,7 @@ export default function Footer() {
             </svg>
           </a>
 
-          <a href="https://www.linkedin.com/in/fermin-alvarez-dev/">
+          <a href="https://www.linkedin.com/in/fermin-alvarez-dev/"  target="_blank" rel="noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
@@ -38,7 +38,7 @@ export default function Footer() {
             </svg>
           </a>
 
-          <a href="mailto: ferminalvarez.dev@gmail.com">
+          <a href="mailto: ferminalvarez.dev@gmail.com"  target="_blank" rel="noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 488 512"
@@ -51,7 +51,7 @@ export default function Footer() {
             </svg>
           </a>
 
-          <a href="https://wa.me/542392409943">
+          <a href="https://wa.me/542392409943"  target="_blank" rel="noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
@@ -64,7 +64,7 @@ export default function Footer() {
             </svg>
           </a>
 
-          <a href="https://www.instagram.com/ferminalvarez_/">
+          <a href="https://www.instagram.com/ferminalvarez_/"  target="_blank" rel="noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
