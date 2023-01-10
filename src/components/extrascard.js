@@ -15,67 +15,67 @@ import { BsCode } from "react-icons/bs";
 export default function ExtrasCard() {
   return (
     <div className="bg-blue-800 text-primary-content rounded-xl px-16 py-6 whitespace-nowrap my-10 drop-shadow-2xl">
-      <h1 className="text-3xl font-bold title-hero text-white my-10 justify-center">
+      <h1 className="text-3xl font-bold text-white my-10 justify-center">
         Extras
       </h1>
       <div className="columns-1 lg:columns-2">
         <ul className="menu md:p-2">
           <li>
-            <div className="title-hero text-xl flex fill-white">
+            <div className="text-xl flex fill-white">
               <DiMysql size={30} />
               <p>MySQL</p>
             </div>
           </li>
           <li>
-            <div className="title-hero text-xl flex fill-white">
+            <div className="text-xl flex fill-white">
               <SiPostgresql size={30} />
               <p>PostgreSQL</p>
             </div>
           </li>
           <li>
-            <div className="title-hero text-xl flex space-x-1 fill-white">
+            <div className="text-xl flex space-x-1 fill-white">
               <DiMongodb size={30} />
               <p>NoSQL</p>
             </div>
           </li>
           <li>
-            <div className="title-hero text-xl flex space-x-1 fill-white">
+            <div className="text-xl flex space-x-1 fill-white">
               <GrGraphQl size={30} />
               <p>GraphQL</p>
             </div>
           </li>
           <li>
-            <div className="title-hero text-xl flex space-x-1 ">
+            <div className="text-xl flex space-x-1 ">
               <TbApi size={30} />
               <p>API REST</p>
             </div>
           </li>
           <li>
-            <div className="title-hero text-sm md:text-xl flex space-x-1 ">
+            <div className="text-sm md:text-xl flex space-x-1 ">
               <SiSequelize size={30} />
               <p>Sequelize - Eloquent - Hibernate</p>
             </div>
           </li>
           <li>
-            <div className="title-hero text-xl flex space-x-1 fill-white">
+            <div className="text-xl flex space-x-1 fill-white">
               <SiSwagger size={30} />
               <p>Swagger</p>
             </div>
           </li>
           <li>
-            <div className="title-hero text-sm md:text-xl flex space-x-1 fill-white">
+            <div className="text-sm md:text-xl flex space-x-1 fill-white">
               <BsCode size={30} />
               <p>Clean Code - Clean Architecture</p>
             </div>
           </li>
           <li>
-            <div className="title-hero text-xl flex space-x-1 fill-white">
+            <div className="text-xl flex space-x-1 fill-white">
               <AiFillApi size={30} />
               <p>Micro-Frontends</p>
             </div>
           </li>
           <li>
-            <div className="title-hero text-xl flex space-x-1">
+            <div className="text-xl flex space-x-1">
               <svg
                 stroke="currentColor"
                 strokeWidth="0"
@@ -95,25 +95,25 @@ export default function ExtrasCard() {
             </div>
           </li>
           <li>
-            <div className="title-hero text-xl flex space-x-1 fill-white">
+            <div className="text-xl flex space-x-1 fill-white">
               <FaDocker size={30} />
               <p>Docker</p>
             </div>
           </li>
           <li>
-            <div className="title-hero text-xl flex space-x-1 fill-white">
+            <div className="text-xl flex space-x-1 fill-white">
               <SiRabbitmq size={30} />
               <p>RabbitMQ</p>
             </div>
           </li>
           <li>
-            <div className="title-hero text-xl flex space-x-1 fill-white">
+            <div className="text-xl flex space-x-1 fill-white">
               <SiServerless size={30} />
               <p>Serverless</p>
             </div>
           </li>
           <li>
-            <div className="title-hero text-sm md:text-xl flex space-x-1 fill-white">
+            <div className="text-sm md:text-xl flex space-x-1 fill-white">
               <IoMdInfinite size={30} />
               <p>Entrega e Integración Continua</p>
             </div>
