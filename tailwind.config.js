@@ -9,10 +9,9 @@ module.exports = {
         sans: ['"Montserrat"', 'sans-serif']
     },
     colors: {
-      'background': '#E6F4F1',
-      'primary': '#DB751D',
-      'secondary': '#356ab0',
-      'brown': '#DC751E'
+      'primary': '#C8D349',
+      'secondary': '#6366F1',
+      'tertiary': '#DDB62B',
     },
     },
   },

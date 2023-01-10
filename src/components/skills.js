@@ -3,7 +3,7 @@ import ExtrasCard from "./extrascard";
 import FrontEndCard from "./frontendcard";
 export default function Skills() {
   return (
-    <div className="bg-background">
+    <div className="bg-white">
       <a className="anchor" id="habilidades"> </a>
       <h1 className="text-5xl sm:text-6xl font-bold title-hero text-base-content pt-10">
         Mis habilidades

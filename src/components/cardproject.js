@@ -4,7 +4,7 @@ export default function CardProject(props) {
   return (
     <div className="py-20 mx-5 text-center align-middle border rounded-2xl rounded lg:px-5 lg:py-10 xl:py-20 bg-white transform transition duration-300 hover:scale-105 min-w-[392px] min-h-[72px]">
       {props.data.favorite && (
-        <div className="absolute top-2 right-2 text-primary">
+        <div className="absolute top-2 right-2 text-tertiary">
           <BsStarFill size={25} />
         </div>
       )}
