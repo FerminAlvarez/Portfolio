@@ -3,7 +3,7 @@ import SocialMedia from "./socialmedia";
 
 export default function Hero() {
   return (
-    <div className="hero min-h-screen bg-white" id="inicio">
+    <div className="hero min-h-screen bg-white text-black" id="inicio">
       <div className="flex items-center justify-center flex-col xl:flex-row-reverse xl:space-x-72 xl:space-x-reverse">
         <div className="xl:mr-5">
           <img
