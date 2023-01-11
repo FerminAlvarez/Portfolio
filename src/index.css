@@ -59,3 +59,7 @@ a.anchor {
     top: -150px;
     visibility: hidden;
 }
+
+.max-width-fill{
+	max-width: -webkit-fill-available
+}

@@ -14,7 +14,7 @@ import { IoMdInfinite } from "react-icons/io";
 import { BsCode } from "react-icons/bs";
 export default function ExtrasCard() {
   return (
-    <div className="bg-secondary text-primary-content rounded-xl px-16 py-6 whitespace-nowrap my-10 drop-shadow-2xl">
+    <div className="bg-secondary text-primary-content rounded-xl px-16 py-6 whitespace-nowrap my-10 drop-shadow-2xl max-width-fill">
       <h1 className="text-3xl font-bold text-white my-10 justify-center">
         Extras
       </h1>

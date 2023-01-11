@@ -79,7 +79,7 @@ export default function Footer() {
         </div>
       </div>
       <div>
-        <p>Fermin Alvarez - 2022</p>
+        <p>Fermin Alvarez - 2023</p>
       </div>
     </footer>
   );

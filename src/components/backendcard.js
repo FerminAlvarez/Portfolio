@@ -6,7 +6,7 @@ import { FaLaravel } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 export default function BackendCard() {
   return (
-    <div className="bg-secondary text-primary-content rounded-xl px-16 py-6 whitespace-nowrap my-10 drop-shadow-2xl">
+    <div className="bg-secondary text-primary-content rounded-xl px-16 py-6 whitespace-nowrap my-10 drop-shadow-2xl max-width-fill">
       <h1 className="text-3xl font-bold text-white my-10 justify-center">
         Backend Developer
       </h1>

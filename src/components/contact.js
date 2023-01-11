@@ -3,7 +3,7 @@ import { RiMailSendLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
 export default function Contact() {
   return (
-    <div className="flex flex-col lg:flex-row w-full max-w-screen-xl mt-24 px-8 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-white text-gray-900 rounded-lg shadow-lg h-max my-20">
+    <div className="flex flex-col lg:flex-row w-full max-w-screen-xl md:mt-20 mb-20 px-8 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-white text-gray-900 rounded-lg shadow-lg h-max ">
       <a className="anchor" id="contacto"> </a>
       <ContactForm />
       <div className="divider divider-horizontal"></div>

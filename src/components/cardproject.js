@@ -2,7 +2,7 @@ import { BsStarFill } from "react-icons/bs";
 import Badge from "./badge";
 export default function CardProject(props) {
   return (
-    <div className="py-20 mx-5 text-center align-middle border rounded-2xl rounded lg:px-5 lg:py-10 xl:py-20 bg-white transform transition duration-300 hover:scale-105 min-w-[392px] min-h-[72px] text-black">
+    <div className="py-20 mx-5 text-center align-middle border rounded-2xl rounded lg:px-5 lg:py-10 xl:py-20 bg-white transform transition duration-300 hover:scale-105 min-w-[240px] md:min-w-[392px] min-h-[72px] text-black">
       {props.data.favorite && (
         <div className="absolute top-2 right-2 text-tertiary">
           <BsStarFill size={25} />
@@ -13,10 +13,10 @@ export default function CardProject(props) {
         {props.data.date}
       </p>
 
-      <h5 className="inline-block max-w-xs mx-auto mb-3 text-2xl font-bold text-black leading-7">
+      <h5 className="inline-block max-w-xs mx-auto mb-3 text-2xl font-bold text-black leading-7 p-1">
         {props.data.title}
       </h5>
-      <p className="max-w-xs mx-auto mb-2">
+      <p className="max-w-xs mx-auto mb-2 p-1">
         {props.data.description}
       </p>
 

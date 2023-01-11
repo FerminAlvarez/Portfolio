@@ -12,8 +12,7 @@ export default function Projects() {
           </div>
           <p className="text-white md:text-lg">
             Estos son los proyectos más relevantes en los que he estado
-            trabajando a lo largo de mi formación como desarrollador. Están
-            ordenados según la fecha en la que se dió por finalizado.
+            trabajando a lo largo de mi formación como desarrollador.
           </p>
         </div>
         <div>

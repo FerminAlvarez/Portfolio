@@ -27,7 +27,7 @@ function RowProjects(props) {
       </div>
       <button
         className="btn btn-circle"
-        onClick={() => scrollRow(containerRef.current.offsetWidth)}
+        onClick={() => scrollRow(containerRef.current.offsetWidth+2)}
       >
         ❯
       </button>

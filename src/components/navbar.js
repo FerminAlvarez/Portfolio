@@ -22,25 +22,25 @@ export default function Navbar() {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow text-white rounded-box w-52"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow text-white rounded-box w-52 bg-secondary"
           >
             <li>
-            <Link smooth to="/#inicio" className="hover:bg-primary hover:text-black hover:font-semibold"> Inicio</Link>
+            <Link smooth to="/#inicio" className="my-1 bg-indigo-900  font-semibold">Inicio</Link>
           </li>
           <li>
-            <Link smooth to="/#cv" className="hover:bg-primary hover:text-black hover:font-semibold"> CV</Link>
+            <Link smooth to="/#cv" className="my-1 bg-indigo-900  font-semibold">CV</Link>
           </li>
           <li>
-            <Link smooth to="/#habilidades" className="hover:bg-primary hover:text-black hover:font-semibold"> Habilidades</Link>
+            <Link smooth to="/#habilidades" className="my-1 bg-indigo-900  font-semibold">Habilidades</Link>
           </li>
           <li>
-            <Link smooth to="/#formacion" className="hover:bg-primary hover:text-black hover:font-semibold"> Educación - Experiencia</Link>
+            <Link smooth to="/#formacion" className="my-1 bg-indigo-900  font-semibold">Formación</Link>
           </li>
           <li>
-            <Link smooth to="/#proyectos" className="hover:bg-primary hover:text-black hover:font-semibold"> Proyectos</Link>
+            <Link smooth to="/#proyectos" className="my-1 bg-indigo-900  font-semibold">Proyectos</Link>
           </li>
           <li>
-            <Link smooth to="/#contacto" className="hover:bg-primary hover:text-black hover:font-semibold"> Contacto</Link>
+            <Link smooth to="/#contacto" className="my-1 bg-indigo-900  font-semibold">Contacto</Link>
           </li>
           </ul>
         </div>
@@ -48,22 +48,22 @@ export default function Navbar() {
       <div className="mx-auto hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-white">
           <li>
-            <Link smooth to="/#inicio" className="hover:bg-primary hover:text-black hover:font-semibold"> Inicio</Link>
+            <Link smooth to="/#inicio" className="hover:bg-primary hover:text-black hover:font-semibold">Inicio</Link>
           </li>
           <li>
-            <Link smooth to="/#cv" className="hover:bg-primary hover:text-black hover:font-semibold"> CV</Link>
+            <Link smooth to="/#cv" className="hover:bg-primary hover:text-black hover:font-semibold">CV</Link>
           </li>
           <li>
-            <Link smooth to="/#habilidades" className="hover:bg-primary hover:text-black hover:font-semibold"> Habilidades</Link>
+            <Link smooth to="/#habilidades" className="hover:bg-primary hover:text-black hover:font-semibold">Habilidades</Link>
           </li>
           <li>
-            <Link smooth to="/#formacion" className="hover:bg-primary hover:text-black hover:font-semibold"> Educación - Experiencia</Link>
+            <Link smooth to="/#formacion" className="hover:bg-primary hover:text-black hover:font-semibold">Formación</Link>
           </li>
           <li>
-            <Link smooth to="/#proyectos" className="hover:bg-primary hover:text-black hover:font-semibold"> Proyectos</Link>
+            <Link smooth to="/#proyectos" className="hover:bg-primary hover:text-black hover:font-semibold">Proyectos</Link>
           </li>
           <li>
-            <Link smooth to="/#contacto" className="hover:bg-primary hover:text-black hover:font-semibold"> Contacto</Link>
+            <Link smooth to="/#contacto" className="hover:bg-primary hover:text-black hover:font-semibold">Contacto</Link>
           </li>
         </ul>
       </div>

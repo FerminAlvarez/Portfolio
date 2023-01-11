@@ -6,7 +6,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 export default function FrontEndCard() {
   return (
-    <div className="bg-secondary text-primary-content rounded-xl px-16 py-6 whitespace-nowrap my-10 drop-shadow-2xl">
+    <div className="bg-secondary text-primary-content rounded-xl px-16 py-6 whitespace-nowrap my-10 drop-shadow-2xl max-width-fill">
       <h1 className="text-3xl font-bold  text-white my-10 justify-center">
         Frontend Developer
       </h1>
