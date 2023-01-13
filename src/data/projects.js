@@ -41,7 +41,6 @@ export const personalProjects = [
       "Se llevaron a cabo automatizaciones de varias operaciones en www.icel.com.ar mediante el uso de la API de ChamiloLms y Make.",
     date: "10 AGOSTO 2022",
     tags: ["API-REST"],
-    link: "https://github.com/FerminAlvarez/PreciosLibros-APIS",
     favorite: true,
   },
   {
