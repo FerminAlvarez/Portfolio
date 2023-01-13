@@ -3,7 +3,7 @@ export const personalProjects = [
     title: "Mi Portfolio",
     description:
       "Este proyecto pretende mostrar todos los proyectos que he realizado",
-    date: "30 DICIEMBRE 2022",
+    date: "13 DICIEMBRE 2022",
     tags: ["JavaScript", "React JS", "Tailwind CSS"],
     link: "https://github.com/FerminAlvarez/Portfolio",
     favorite: true,
@@ -32,6 +32,15 @@ export const personalProjects = [
       "Una sencilla extensión para navegadores como chrome o brave que permite ingresar en una ventana un ISBN de un libro y te muestra en una nueva página un listado de precios en distintas librerías junto con más información.",
     date: "8 DICIEMBRE 2022",
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap CSS"],
+    link: "https://github.com/FerminAlvarez/PreciosLibros-APIS",
+    favorite: true,
+  },
+  {
+    title: "Automatización de ChamiloLms con Integromat/Make",
+    description:
+      "Se llevaron a cabo automatizaciones de varias operaciones en www.icel.com.ar mediante el uso de la API de ChamiloLms y Make.",
+    date: "10 AGOSTO 2022",
+    tags: ["API-REST"],
     link: "https://github.com/FerminAlvarez/PreciosLibros-APIS",
     favorite: true,
   },

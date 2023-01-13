@@ -4,6 +4,7 @@ import { DiCss3, DiJava, DiMysql, DiMongodb, DiProlog } from "react-icons/di";
 import { IoLogoJavascript, IoMdInfinite, IoLogoPython } from "react-icons/io";
 import { BsFillBootstrapFill } from "react-icons/bs";
 import { FaReact, FaLaravel, FaDocker } from "react-icons/fa";
+import { TbApi } from "react-icons/tb";
 import {
   SiPostgresql,
   SiSequelize,
